@@ -2,7 +2,10 @@
 
 export default function () {
     return (
-        <div className="overflow-y-scroll h-full">
+        <div className="overflow-y-scroll h-full
+            [&::-webkit-scrollbar]:w-2
+            [&::-webkit-scrollbar-track]:bg-neutral-700
+            [&::-webkit-scrollbar-thumb]:bg-neutral-500">
             <h1 className="text-center text-2xl font-semibold mt-2">Qui suis je?</h1>
             <p className="mt-4">
                 Je suis un développeur full-stack passionné, spécialisé dans Django pour le back-end et React pour le front-end.

@@ -15,8 +15,8 @@ function App() {
 
     return (
         <div className="min-h-screen w-full bg-[#333] flex justify-center items-center text-white">
-            <div className="bg-linear-to-r from-[#444] to-[#555] m-5 px-3 py-8 rounded-xl w-full">
-                <div className="w-full">
+            <div className="bg-linear-to-r from-[#444] to-[#555] m-5 max-w-[350px] md:max-w-[700px] lg:max-w-[1000px] px-3 py-8 rounded-xl w-full lg:flex max">
+                <div className="w-full md:flex md:justify-evenly md:items-center lg:block lg:w-1/3">
                     <div className='text-center font-semibold'>
                         <h2 className='text-3xl'>RAZAKAMIADNA</h2>
                         <h1 className='text-2xl'><span className='italic underline'>Manoa</span> Fehizoro</h1>
@@ -26,7 +26,7 @@ function App() {
                         <img src={ManoaImage} alt="" className='w-full h-full object-contain' />
                     </div>
                 </div>
-                <div>
+                <div className='lg:w-2/3'>
                     <div className='w-full bg-[#333] mt-6 rounded-2xl h-[60vh] overflow-x-hidden relative'>
                         {slides.map((Slide, index) => (
                             <div className='absolute top-0 transition-all w-full h-full px-3 py-2' style={{left: `${(index-currentIndex)*100}%`}}>
