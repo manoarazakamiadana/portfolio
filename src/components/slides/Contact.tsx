@@ -23,7 +23,7 @@ export default function () {
                         <FontAwesomeIcon icon={faLocationDot} className="text-xl" /> <p>Antananarivo, Madagascar</p>
                     </div>
                     <div className="flex gap-4 my-4 md:w-1/2 md:my-2">
-                        <FontAwesomeIcon icon={faPhone} className="text-xl" /> <p>+261 64 42 044 87</p>
+                        <FontAwesomeIcon icon={faPhone} className="text-xl" /> <p>+261 34 42 044 87</p>
                     </div>
                 </div>
             </div>
